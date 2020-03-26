@@ -124,7 +124,7 @@ library
     , process             >= 1.1.0.1 && < 1.7
     , random              >= 1.0.1.1 && < 1.2
     , regex-compat        >= 0.95.1  && < 0.96
-    , time                >= 1.4     && < 1.10
+    , time                >= 1.4     && < 1.11
 
   if flag(network--GE-3_0_0)
     build-depends: network-bsd >= 2.8.1 && <2.9,
